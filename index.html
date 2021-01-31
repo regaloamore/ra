@@ -88,7 +88,9 @@
       </nav><!-- .nav-menu -->
 
       <div class="header-social-links">
-        <span style="color: whitesmoke;font-size: 15px;font-weight: 600;"> Follow us on : </span>
+        <span style="color: whitesmoke;font-size: 15px;font-weight: 600;display: inline-block;"
+        class="follow-us"> Follow us on : 
+        </span>
         <a href="https://www.google.co.in/search?hl=en&_ga=2.14251895.1511557608.1610884091-699720235.1610884091&q=Regalo+Amore&ludocid=436634350916062140&lsig=AB86z5V1dZqMATDNHX3a-_fyjElp"
           class="google" target="_blank"><i class="bx bxl-google icofont-lg"></i></a>
         <a href="https://www.facebook.com/regaloamore/" 
@@ -402,27 +404,50 @@
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
       <div class="section-title">
-        <h2>Contact</h2>
+        <h2>Get in Touch</h2>
       </div>
-      <div class="info">
-        <div class="address">
-          <i class="icofont-google-map"></i>
-          <h4>Location:</h4>
-          <p>Raja Rammohon Roy Road, Kolkata, India</p>
+        <div class="col-md-6">
+          <iframe style="border:0; width: 100%; height: 320px;" 
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7372.858692823632!2d88.3225972323395!3d22.48806898522632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a75be1a6a93%3A0x1dc3021d9a0e6f1a!2sRaja%20Rammohan%20Roy%20Rd%2C%20Sukanta%20Pally%2C%20Barisha%2C%20Kolkata%2C%20West%20Bengal%2C%20India!5e0!3m2!1sen!2sbg!4v1610864250584!5m2!1sen!2sbg" 
+          frameborder="0" allowfullscreen></iframe>
         </div>
-        <div class="email">
-          <i class="icofont-envelope"></i>
-          <h4>Email:</h4>
-          <p>regalo.amore007@gmail.com</p>
-        </div>
+        <div class="info">
+          <div class="address">
+            <i class="icofont-google-map"></i>
+            <p class="location">Location: Raja Rammohon Roy Road, Kolkata, India</p>
+          </div>
+          <div class="email">
+            <i class="icofont-envelope"></i>
+            <span>&nbsp;</span> 
+            <p class="email-us">Email Us : regalo.amore007@gmail.com</p>
+          </div>
 
-        <div class="phone">
-          <i class="fa fa-whatsapp"></i>
-          <span>&nbsp;</span> 
-          <a href="https://wa.me/message/7LE7SAU4Q6D4F1" 
-          class="btn-flip" data-back="on WhatsApp" data-front="Message Us" target="_blank"></a>
+          <div class="phone">
+            <i class="fa fa-whatsapp"></i>
+            <span>&nbsp;</span> 
+            <a href="https://wa.me/message/7LE7SAU4Q6D4F1" 
+            class="btn-flip" data-back=" Click to Message Us" data-front="Whatsapp Us" target="_blank"></a>
+          </div>
+          <div class="phone">
+            <i class="icofont-facebook"></i>
+            <span>&nbsp;</span> 
+            <a href="https://www.facebook.com/groups/955696924902545/" 
+            class="btn-flip" data-back="Click to Join Us" data-front="Facebook Group" target="_blank"></a>
+          </div>
+          <div class="phone">
+            <i class="icofont-instagram"></i>
+            <span>&nbsp;</span> 
+            <a href="https://www.instagram.com/regaloamore/" 
+            class="btn-flip" data-back="Click to Follow Us" data-front="Instagram" target="_blank"></a>
+          </div>
+          <div class="phone">
+            <i class="icofont-at"></i>
+            <span>&nbsp;</span> 
+            <a href="https://g.page/regalo-amore/review?rc" 
+            class="btn-flip" data-back="Click to review us" data-front="Google Us" target="_blank"></a>
+          </div>
         </div>
-      </div>
+        
     </section><!-- End Contact Section -->
 
   </main><!-- End #main -->
@@ -473,13 +498,11 @@
       <a href="http://fb.me/msg/regaloamore" 
       class="messenger" data-tooltip="FB Messenger" data-placement="left" target="_blank">
       <i class="fab fa-facebook-messenger"></i>
+      
       </a>
       <a href="https://wa.me/message/7LE7SAU4Q6D4F1" 
         class="whatsapp" data-tooltip="WhatsApp" data-placement="left" target="_blank">
-        <i class="fa fa-whatsapp"></i>
-      </a>
-      <a href="" class="call" data-tooltip="Call" data-placement="left">
-        <i class="fa fa-phone"></i>
+        <i class="fab fa-whatsapp"></i>
       </a>
     </div>
     <a class="sywh-open-services" data-tooltip="Place Order" data-placement="left">
@@ -487,6 +510,16 @@
           <i class="fa fa-times"></i>
     </a>
   </div>
+
+  <div id="sy-review">
+    <a href="https://g.page/regalo-amore/review?rc"
+    class="float" data-tooltip="Review Us @ Google" 
+    data-placement="top" target="_blank">
+    <i class="far fa-comment-dots my-float review-google"></i>
+  </a>
+  </div>
+
+
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
