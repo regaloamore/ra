@@ -294,9 +294,29 @@
 
 
 .follow-us {
+  color: whitesmoke;
+  
+  font-weight: 600;
+  display: inline-block;
 	-webkit-animation: follow-us 1.5s ease-in-out infinite both;
 	        animation: follow-us 1.5s ease-in-out infinite both;
 }
+
+@media (min-width: 360px) {
+  .follow-us {
+  font-size: 12px;
+  }
+}
+
+@media (min-width: 414px) {
+}
+
+@media (min-width: 576px) {
+  .follow-us {
+    font-size: 15px;
+    }
+}
+
 
 @-webkit-keyframes follow-us {
   from {

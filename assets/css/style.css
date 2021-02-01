@@ -137,6 +137,48 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+@media (min-width: 360px) {
+  #header .logo {
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 0;
+    font-weight: normal;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    font-family: 'Berkshire Swash';
+  }
+  
+}
+
+@media (min-width: 414px) {
+  #header .logo {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    font-family: 'Berkshire Swash';
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #header .logo {
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    font-family: 'Berkshire Swash';
+    align-items: center;
+  }
+ }
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -257,10 +299,19 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
-    left: -90%;
+    left: -70%;
   }
   .nav-menu .drop-down .drop-down:hover > ul {
     left: -100%;
+  }
+  .nav-menu .drop-down .drop-down > a:after {
+    content: "\ea9d";
+  }
+}
+
+@media (min-width: 414px) {
+  .nav-menu {
+    float: right;
   }
   .nav-menu .drop-down .drop-down > a:after {
     content: "\ea9d";
@@ -295,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
-  right: 15px;
+  right: 0;
   top: 15px;
   z-index: 9998;
   border: 0;
@@ -306,6 +357,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   cursor: pointer;
   text-align: right;
+  float: right !important;
 }
 
 .mobile-nav-toggle i {
@@ -320,7 +372,8 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgb(243, 240, 240);
+  color: rgb(133, 94, 94);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -337,7 +390,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #150517;
+  color: #57325e;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -1267,7 +1320,7 @@ preview-link:hover {
 .contact .info {
   width: 100%;
   background: rgb(255, 230, 230);
-  padding-left: 30em;
+
 }
 
 .contact .info i {
@@ -1297,10 +1350,15 @@ preview-link:hover {
   margin-bottom: 0;
   font-size: 16px;
   color: #000000;
+  margin: 0 auto;
 }
 
 .contact .info .email, .contact .info .phone {
   margin-top: 20px;
+}
+
+.address{
+  font-size: 20px;;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
@@ -1736,7 +1794,7 @@ preview-link:hover {
   opacity: 1;
   outline: 0;
   color: #fff;
-  line-height: 40px;
+  line-height: 20px;
   position: relative;
   text-align: center;
   display: inline-block;
@@ -1744,6 +1802,7 @@ preview-link:hover {
   font-family: "Salsa";
   text-transform: none;
   width: fit-content;
+  font-size: 10px;
   -webkit-border-radius:50%;
 	-moz-border-radius:50%;
 	-ms-border-radius:50%;
