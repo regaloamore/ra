@@ -1,15 +1,33 @@
 details {
-    width: 105%;
+    width: 95%;
     padding: 5px 5px 5px 5px;
     margin: 0 auto;
     position: relative;
-    font-size: 22px;
     color: black;
     border: 5px solid rgb(0, 0, 0);
     border-radius: 15px;
     box-sizing: content-box;
     transition: all .3s;
   }
+
+  @media (min-width: 360px) {
+    details {
+      font-size: 16px;
+    }
+    details[open] {
+      min-height: 50px;
+    }
+  }
+  @media (min-width: 414px) {
+    details {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 576px) {
+    details {
+      font-size: 22px;
+    }
+   }
   
   details + details {
     margin-top: 20px;
@@ -73,3 +91,4 @@ details {
     display: none;
   }
   
+

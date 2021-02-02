@@ -139,6 +139,13 @@ img {
   clear: both;
 }
 
+@media (min-width: 360px) {
+  .row {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
 @media (min-width: 576px) {
   .row {
     margin-right: auto;
