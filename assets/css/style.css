@@ -1641,17 +1641,17 @@ preview-link:hover {
 
 #footer .footer-top .footer-newsletter {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
   margin-top: 30px;
 }
 
 #footer .footer-top .footer-newsletter form {
-  background: #fff;
-  padding: 6px 10px;
+  padding: 20px 10px;
   position: relative;
   border-radius: 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
-  text-align: left;
+  text-align: center;
+  background-color: #ed3c0d;
 }
 
 #footer .footer-top .footer-newsletter form input[type="email"] {
@@ -1663,12 +1663,11 @@ preview-link:hover {
 #footer .footer-top .footer-newsletter form input[type="submit"] {
   position: absolute;
   top: 0;
-  right: -1px;
+  right: 0;
   bottom: 0;
   border: 0;
   background: none;
   font-size: 16px;
-  padding: 0 20px;
   background: #ff7f5d;
   color: #fff;
   transition: 0.3s;
@@ -1937,3 +1936,4 @@ preview-link:hover {
        height:30vw;
      }
     }
+    
